@@ -1,6 +1,4 @@
  "use client";  
-
-
 import { use, useState } from "react";
 
 export default function CreateProduct() {
@@ -19,7 +17,7 @@ export default function CreateProduct() {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          name: productName, // backend espera "name"
+          name: productName, 
           price: Number(price),
           description,
         }),
@@ -38,7 +36,6 @@ export default function CreateProduct() {
     }
   }
 
-  // O return precisa estar aqui fora
   return (
     <div style={{ padding: "2rem" }}>
       <h1>Create New Product</h1>

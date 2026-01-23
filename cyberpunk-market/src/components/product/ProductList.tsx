@@ -1,5 +1,5 @@
 "use client";
-import { useProducts } from "../hooks/useProducts";
+import { useProducts } from "@/src/hooks/useProducts";
 
 export default function ProductList() {
     const { products, loading, error } = useProducts();
@@ -16,4 +16,4 @@ export default function ProductList() {
             ))}
             </ul>
     );
-}   
+}   2

@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import ProductList from "../components/ProductList";
+import ProductList from "@/src/components/product/ProductList";
 
 
 export default function homepage() {
